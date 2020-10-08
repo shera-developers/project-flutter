@@ -36,9 +36,9 @@ class _welcome_screenState extends State<welcome_screen> {
       onError: (e, s) {},
       startAnimation: '0',
       loopAnimation: 'Untitled',
-      until: () => Future.delayed(Duration(milliseconds: 30)),
-      endAnimation: '3',
-      backgroundColor: Colors.black,
+      until: () => Future.delayed(Duration(milliseconds: 28)),
+      endAnimation: '2',
+      backgroundColor: Colors.blue,
     );
   }
 }

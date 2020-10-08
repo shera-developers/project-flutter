@@ -48,6 +48,28 @@ class SearchList extends StatefulWidget {
   _SearchListState createState() => _SearchListState();
 }
 
+class CardPage extends StatelessWidget {
+  final Building building;
+  CardPage({this.building});
+  Widget build(context) {
+    if (building.id == 4)
+      return browsers();
+//    else if (building.id == 6)
+//      return travelApps();
+    else
+      return Scaffold(
+        body: SafeArea(
+          child: Center(
+            child: Text(
+              ' Page under Development :/ \n\n Your Developers are working on it 24x7.\n Sorry for the delay.\n Get back here soon!',
+              style: TextStyle(color: Colors.red, fontSize: 20.0),
+            ),
+          ),
+        ),
+      );
+  }
+}
+
 class _SearchListState extends State<SearchList> {
   Icon menuOption = Icon(
     Icons.menu,
@@ -203,6 +225,49 @@ class _SearchListState extends State<SearchList> {
     });
   }
 
+      
+      Widget buildBar(BuildContext context) {
+    return AppBar(
+        leading: IconButton(
+          icon: Icon(
+            Icons.menu,
+            color: Color(0xffd11b5d),
+          ),
+          onPressed: () {},
+        ),
+        centerTitle: true,
+        title: appBarTitle,
+        iconTheme: IconThemeData(color: Color(0xffd11b5d)),
+        backgroundColor: Colors.black,
+        actions: <Widget>[
+          IconButton(
+            icon: actionIcon,
+            onPressed: () {
+              setState(() {
+                if (this.actionIcon.icon == Icons.search) {
+                  this.actionIcon = Icon(
+                    Icons.close,
+                    color: Color(0xffd11b5d),
+                  );
+                  this.appBarTitle = TextField(
+                    controller: _searchQuery,
+                    style: TextStyle(
+                      color: Colors.white,
+                    ),
+                    decoration: InputDecoration(
+                        hintText: "Search here..",
+                        hintStyle: TextStyle(color: Colors.white)),
+                  );
+                  _handleSearchStart();
+                } else {
+                  _handleSearchEnd();
+                }
+              });
+            },
+          ),
+        ]);
+  }
+      
   void _handleSearchEnd() {
     setState(() {
       this.actionIcon = Icon(

@@ -46,6 +46,18 @@ Widget appbar1(String title) {
     backgroundColor: Colors.black,
   );
 }
+  
+Widget appbar2(String title) {
+  return AppBar(
+    centerTitle: true,
+    title: Text(
+      title,
+      style: TextStyle(fontSize: 27),
+    ),
+    iconTheme: IconThemeData(color: Color(0xffd11b5d)),
+    backgroundColor: Colors.black,
+  );
+}
 
 Widget appCard({
   String appName,

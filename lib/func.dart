@@ -6,11 +6,12 @@ import 'package:device_apps/device_apps.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 
 _launchURL(String packageName) async {
+  print("Trying to Launch URL");
   
   if (await canLaunch(url)) {
     await launch(url);
   } else {
-    throw 'Could not launch $url';
+    throw 'Could not launch the $url';
   }
 }
 
@@ -152,9 +153,11 @@ Widget appCard({
   String imageurl,
 }) {
   return Card(
+    
 
 
     child: Padding(
+      
       padding: const EdgeInsets.all(4.0),
       child: ListTile(
 
@@ -172,11 +175,12 @@ Widget appCard({
 
         trailing: Icon(
           Icons.favorite,
-          color: Colors.red,
+          color: Colors.pink,
 
 //        onTap: _launchURL1('www.google.com'),
         ),
         onTap: () => isAppInstalled(packName),
+        
       ),
     ),
   );

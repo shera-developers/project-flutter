@@ -15,6 +15,24 @@ _launchURL(String packageName) async {
   }
 }
 
+_launchUeRL(String packageName) async {
+  print("Trying to Launch URL");
+  
+  if (await canLaunch(url)) {
+    await launch(url);
+  } else {
+    throw 'Could noeeeeffdt launch the $url';
+  }
+}_launcURL(String packageName) async {
+  print("Trying tfsfsdfdsfmdskfmo Launch URL");
+  
+  if (await canLaunch(url)) {
+    await launch(url);
+  } else {
+    throw 'Could not launch the $url';
+  }
+}
+
 Future<bool> isAppInstalled(String packageName) async {
   bool isInstalled = await DeviceApps.isAppInstalled(packageName);
   if (isInstalled) {

@@ -44,7 +44,7 @@ Widget appbar1(String title) {
       style: TextStyle(fontSize: 27),
     ),
     iconTheme: IconThemeData(color: Color(0xffd11b5d)),
-    backgroundColor: Colors.black,
+    backgroundColor: Colors.black[100],
   );
 }
   

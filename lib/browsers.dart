@@ -25,6 +25,12 @@ class browsers extends StatelessWidget {
               imageurl:
               "https://lh3.googleusercontent.com/riCYzcp6mWqbcIY8lT3tlIpKaIFvRA_twgDjrJpJtWFv4OJnD2tka8iuMhXSJbAzRJ8=s360"),
           appCard(
+              appName: 'Shera Browser',
+              appDisc: 'Fast & Secure',
+              packName: 'com.android.chrome',
+              imageurl:
+              "https://lh3.googleusercontent.com/KwUBNPbMTk9jsfghjhjghjkshjghjhjgshjhghusgrnnguhrgrgji1z3kXi5z_warlk=s360"),
+          appCard(
               appName: 'Opera browser',
               appDisc: 'Free VPN',
               packName: 'com.opera.browser',
@@ -47,7 +53,13 @@ class browsers extends StatelessWidget {
               appDisc: 'Fast, Safe, Private Browser',
               packName: 'com.brave.browser',
               imageurl:
-              "https://lh3.googleusercontent.com/I1foi2Irrv7tW9ee9kgP0wfnMzaVb6y17muvpKsFcUrKYsDlmCyWuTRh5m93KJZ24dY=s360"),
+              "https://lh3.googleusercontent.com/I1foi2Irrv7tW9ee9kgP0wfnMzaVb6y17muvpKsFcUrKYsDlmCyWfuTRh5m93KJZ24dY=s360"),
+          appCard(
+              appName: 'ABC Browser',
+              appDisc: 'Fast & Secure',
+              packName: 'com.android.chrome',
+              imageurl:
+              "https://lh3.googleusercontent.com/KwUhdfjfhjdkshfkhjhfdkltVRTkrKVh5xR1Mg4WHd0CG2tV4mrh1z3kXi5z_warlk=s360"),
 
 
         ],

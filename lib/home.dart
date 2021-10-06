@@ -61,7 +61,7 @@ class CardPage extends StatelessWidget {
         body: SafeArea(
           child: Center(
             child: Text(
-              ' Page under Development :/ \n\n Your Developers are working on it 24x7.\n Sorry for the delay.\n Get back here soon!',
+              ' Page under Development by Shera Developers :/ \n\n Your Developers are working on it 24x7.\n Sorry for the delay.\n Get back here soon!',
               style: TextStyle(color: Colors.red, fontSize: 20.0),
             ),
           ),

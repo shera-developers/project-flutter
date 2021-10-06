@@ -73,11 +73,11 @@ class CardPage extends StatelessWidget {
 class _SearchListState extends State<SearchList> {
   Icon menuOption = Icon(
     Icons.menu,
-    color: Color(0xffd11b5d),
+    color: Color(0xffd11b4d),
   );
   Widget appBarTitle = Text(
     "Categories",
-    style: TextStyle(color: Colors.white, fontSize: 27),
+    style: TextStyle(color: Colors.blue, fontSize: 27),
   );
 
   Icon actionIcon = Icon(

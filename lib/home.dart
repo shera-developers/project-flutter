@@ -20,6 +20,31 @@ checkID(int val) {
     return false;
 }
 
+class SearchCardPage extends StatelessWidget {
+  final Building building;
+  CardPage({this.building});
+  Widget build(context) {
+    if (building.id == 4)
+      return browsers();
+//    else if (building.id == 6)
+//      return travelApps();
+    else
+      return Scaffold(
+        body: SafeArea(
+          child: Center(
+            child: Text(
+              ' Page under Development :/ \n\n Your Developers are working on it 24x7.\n Sorry for the delay.\n Get back here soon!',
+              style: TextStyle(color: Colors.red, fontSize: 20.0),
+            ),
+          ),
+        ),
+      );
+    return _searchList =
+          _list; 
+  }
+}
+
+
 class CardPage extends StatelessWidget {
   final Building building;
   CardPage({this.building});

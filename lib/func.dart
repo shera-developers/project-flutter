@@ -15,6 +15,18 @@ _launchURL(String packageName) async {
   }
 }
 
+Future<bool> isAppNotInstalled(String packageName) async {
+  bool isInstalled = await DeviceApps.isAppInstalled(packageName);
+  if (!isInstalled) {
+    DeviceApps.openApp(packageName);
+    return true;
+  } else {
+    _launchURL(packageName);
+    return false;
+  }
+}
+
+
 _launchUeRL(String packageName) async {
   print("Trying to Launch URL");
   

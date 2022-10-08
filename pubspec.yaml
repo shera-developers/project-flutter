@@ -28,7 +28,6 @@ dependencies:
   font_awesome_flutter: ^8.8.1
   cached_network_image: ^2.2.0+1
   cloud_firestore: ^0.9.0
-  firebase_auth: ^0.9.0 # add this line
   #  flutter_appavailability: ^0.0.21
 
 

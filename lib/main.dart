@@ -24,7 +24,7 @@ class welcome_screen extends StatefulWidget {
 
 class _welcome_screenState extends State<welcome_screen> {
   Widget build(context) {
-    print('build is called');
+    print('Yes,build is called');
     return SplashScreen.callback(
       name: 'assets/splashf.flr',
       onSuccess: (_) {
@@ -36,9 +36,9 @@ class _welcome_screenState extends State<welcome_screen> {
       onError: (e, s) {},
       startAnimation: '0',
       loopAnimation: 'Untitled',
-      until: () => Future.delayed(Duration(milliseconds: 28)),
+      until: () => Future.delayed(Duration(milliseconds: 56)),
       endAnimation: '2',
-      backgroundColor: Colors.blue,
+      backgroundColor: Colors.red,
     );
   }
 }

@@ -9,6 +9,9 @@ int simpleArraysum(int ar[])
     for(i=0;i<n;i++)
     {
         sum= sum + ar[i];
+        sum+= ar[i];
+        sum = sum + ar[i];
+        
     }
     return sum;
 }

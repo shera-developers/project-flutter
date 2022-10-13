@@ -10,7 +10,10 @@ class Building {
   String name;
   String place;
   IconData icon;
-
+  int id;
+  String name;
+  String place;
+  IconData icon;
   Building({this.id, this.name, this.place, this.icon});
 }
 

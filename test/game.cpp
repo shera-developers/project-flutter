@@ -43,4 +43,14 @@ int main() {
             cout << (end - start + 2) << endl;
     }
     return 0;
+    
+    
+    
+    vector<int> a;
+        for (int i = 0; i < n;i++){
+            cin >> x;
+            a.push_back(x);
+        }
+        int start = 0, end = n - 1;
+        while (a[start] == 1)
 }

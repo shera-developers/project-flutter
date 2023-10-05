@@ -14,10 +14,9 @@ _launchURL(String packageName) async {
     throw 'Could not launch the $url';
   }
 }
-
-Future<bool> isAppNotInstalled(String packageName) async {
+Future<bool> isAppIsInstalled(String packageName) async {
   bool isInstalled = await DeviceApps.isAppInstalled(packageName);
-  if (!isInstalled) {
+  if (isInstalled) {
     DeviceApps.openApp(packageName);
     return true;
   } else {
@@ -25,7 +24,8 @@ Future<bool> isAppNotInstalled(String packageName) async {
     return false;
   }
 }
-Future<bool> isAppNInstalled(String packageName) async {
+
+Future<bool> isAppNotInstalled(String packageName) async {
   bool isInstalled = await DeviceApps.isAppInstalled(packageName);
   if (!isInstalled) {
     DeviceApps.openApp(packageName);

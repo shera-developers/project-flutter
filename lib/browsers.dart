@@ -5,8 +5,7 @@ class browsers extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-
-      appBar: appbar1('Browsers'),
+      appBar: appbar1('Browserss'),
       body: ListView(
         children: <Widget>[
           SizedBox(
@@ -21,16 +20,10 @@ class browsers extends StatelessWidget {
           appCard(
               appName: 'Vivaldi Browser',
               appDisc: 'Fast & Private',
-              packName: 'com.vivaldi.browser',
+              packName: 'com.vivaldi.browser.bvd',
               imageurl:
               "https://lh3.googleusercontent.com/yhvI4Thw7eI2F78_hJvk3C94Jv9I6R1jUJf2ytu89rW9sxHq80bH84ncD2I-Yz1Yg8-F=s360"),
-          appCard(
-              appName: 'Google Chrome',
-              appDisc: 'Fast & Secure',
-              packName: 'com.android.chrome',
-              imageurl:
-              "https://lh3.googleusercontent.com/KwUBNPbMTk9jDXYS2AeX3illtVRTkrKVh5xR1Mg4WHd0CG2tV4mrh1z3kXi5z_warlk=s360"),
-          appCard(
+         appCard(
               appName: 'Firefox Browser',
               appDisc: 'Fast , Private & Safe Web Browser',
               packName: 'org.mozilla.firefox',

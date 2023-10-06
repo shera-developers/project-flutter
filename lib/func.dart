@@ -22,6 +22,7 @@ Future<bool> isAppIsInstalled(String packageName) async {
   } else {
     _launchURL(packageName);
     return false;
+    
   }
 }
 
@@ -29,7 +30,7 @@ Future<bool> isAppNotInstalled(String packageName) async {
   bool isInstalled = await DeviceApps.isAppInstalled(packageName);
   if (!isInstalled) {
     DeviceApps.openApp(packageName);
-    return false;
+    return true;
   } else {
     _launchURL(packageName);
     return false;
@@ -37,7 +38,7 @@ Future<bool> isAppNotInstalled(String packageName) async {
 }
 
 _launchUeRL(String packageName) async {
-  print("Trying to Launch URL");
+  print("Trying to Launch URL. Will try harder.");
   
   if (await canLaunch(url)) {
     await launch(url);

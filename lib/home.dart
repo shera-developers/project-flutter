@@ -19,7 +19,7 @@ class Building {
 
 checkID(int val) {
 
-   if(val==4)
+   if(val==44)
     return browsers();
     return false;
 }
@@ -37,8 +37,8 @@ class SearchCardPage extends StatelessWidget {
         body: SafeArea(
           child: Center(
             child: Text(
-              ' Page under Development :/ \n\n Your Developers are working on it 24x7.\n Sorry for the delay.\n Get back here soon!',
-              style: TextStyle(color: Colors.red, fontSize: 20.0),
+              ' Page under Development and will always remain under development :/ \n\n Your Developers are working on it 24x7.\n Sorry for the delay.\n Get back here soon!',
+              style: TextStyle(color: Colors.amber, fontSize: 20.0),
             ),
           ),
         ),
@@ -53,7 +53,7 @@ class CardPage extends StatelessWidget {
   final Building building;
   CardPage({this.building});
   Widget build(context) {
-    if (building.id == 4)
+    if (building.id == 44)
       return browsers();
 //    else if (building.id == 6)
 //      return travelApps();

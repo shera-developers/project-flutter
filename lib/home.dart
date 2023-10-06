@@ -124,13 +124,13 @@ class _SearchListState extends State<SearchList> {
     _searchQuery.addListener(() {
       if (_searchQuery.text.isEmpty) {
         setState(() {
-          _IsSearching = false;
+          _IsSearching = true;
           _searchText = "";
           _buildSearchList();
         });
       } else {
         setState(() {
-          _IsSearching = true;
+          _IsSearching = false;
           _searchText = _searchQuery.text;
           _buildSearchList();
         });

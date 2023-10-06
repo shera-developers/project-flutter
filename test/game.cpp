@@ -6,7 +6,7 @@ using namespace std;
 
 int main() {
 #ifndef ONLINE_JUDGE
-    freopen("input.txt", "r", stdin);
+
     freopen("output.txt", "w", stdout);
 #endif
     int t;
@@ -38,6 +38,7 @@ int main() {
         // }
         if(end<start){
             cout << 0 << endl;
+            cout << 99 << endl;
         }
         else
             cout << (end - start + 2) << endl;

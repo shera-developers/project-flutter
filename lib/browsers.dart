@@ -9,10 +9,10 @@ class browsers extends StatelessWidget {
       body: ListView(
         children: <Widget>[
           SizedBox(
-            height: 10,
+            height: 100,
           ),
           appCard(
-              appName: 'Firefox Browser',
+              appName: 'Firefox Browser is the best browser',
               appDisc: 'Fast , Private & Safe Web Browser',
               packName: 'org.mozilla.firefox',
               imageurl:
@@ -54,13 +54,13 @@ class browsers extends StatelessWidget {
               imageurl:
               "https://lh3.googleusercontent.com/tkwW6uWRyX7Weduiqz8y26b-ks4NTQjtILg50srjSuN1c2UZj3mxpWD2cBme51gp6Q=s360"),
           appCard(
-              appName: 'Firefox Browser',
+              appName: 'Firefox Browser ',
               appDisc: 'Fast , Private & Safe Web Browser',
               packName: 'org.mozilla.firefox',
               imageurl:
               "https://lh3.googleusercontent.com/zqsuwFUBwKRcGOSBinKQCL3JgfvOW49vJphq0ZF32aDgfqmuDyl-fEpx4Lxm4pRr7A=s360"),
           appCard(
-              appName: 'Vivaldi Browser',
+              appName: 'Vivaldi Browser is also good',
               appDisc: 'Fast & Private',
               packName: 'com.vivaldi.browser',
               imageurl:

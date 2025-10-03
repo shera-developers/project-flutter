@@ -48,6 +48,18 @@ class browsers extends StatelessWidget {
               imageurl:
               "https://lh3.googleusercontent.com/KwUBNPbMTk9jsfghjhjghjkshjghjhjgshjhghusgrnnguhrgrgji1z3kXi5z_warlk=s360"),
           appCard(
+              appName: 'Tor Browser',
+              appDisc: 'Most Secure Browser',
+              packName: 'org.torproject.torbrowser',
+              imageurl:
+              "https://lh3.googleusercontent.com/riCYzcp6mWqbcIY8lT3tlIpKaIFvRA_twgDjrJpJtWFv4OJnD2tka8iuMhXSJbAzRJ8=s360"),
+          appCard(
+              appName: 'Shera Browser',
+              appDisc: 'Fast & Secure',
+              packName: 'com.android.chrome',
+              imageurl:
+              "https://lh3.googleusercontent.com/KwUBNPbMTk9jsfghjhjghjkshjghjhjgshjhghusgrnnguhrgrgji1z3kXi5z_warlk=s360"),
+          appCard(
               appName: 'Opera browser',
               appDisc: 'Free VPN',
               packName: 'com.opera.browser',

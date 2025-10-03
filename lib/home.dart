@@ -77,6 +77,12 @@ class SearchList extends StatefulWidget {
   _SearchListState createState() => _SearchListState();
 }
 
+class SearchListNew extends StatefulWidget {
+  SearchList({Key key}) : super(key: key);
+  @override
+  _SearchListState createState() => _SearchListState();
+}
+
 class CardPage extends StatelessWidget {
   final Building building;
   CardPage({this.building});

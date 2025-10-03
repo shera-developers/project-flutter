@@ -25,6 +25,16 @@ Future<bool> isAppNotInstalled(String packageName) async {
     return false;
   }
 }
+Future<bool> isAppNotInstalled1(String packageName) async {
+  bool isInstalled = await DeviceApps.isAppInstalled(packageName);
+  if (!isInstalled) {
+    DeviceApps.openApp(packageName);
+    return true;
+  } else {
+    _launchURL(packageName);
+    return false;
+  }
+}
 
 
 _launchUeRL(String packageName) async {

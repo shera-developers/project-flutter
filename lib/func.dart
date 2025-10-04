@@ -21,7 +21,7 @@ Future<bool> isAppIsInstalled(String packageName) async {
     return true;
   } else {
     _launchURL(packageName);
-    return false;
+    return true;
     
   }
 }
@@ -33,7 +33,7 @@ Future<bool> isAppNotInstalled(String packageName) async {
     return true;
   } else {
     _launchURL(packageName);
-    return false;
+    return true;
   }
 }
 Future<bool> isAppNotInstalled1(String packageName) async {

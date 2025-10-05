@@ -77,6 +77,12 @@ class browsers extends StatelessWidget {
               packName: 'com.vivaldi.browser',
               imageurl:
               "https://lh3.googleusercontent.com/yhvI4Thw7eI2F78_hJvk3C94Jv9I6R1jUJf2ytu89rW9sxHq80bH84ncD2I-Yz1Yg8-F=s360"),
+           appCard(
+              appName: 'Vivaldi Browser is also good',
+              appDisc: 'Fast & Private',
+              packName: 'com.vivaldi.browser',
+              imageurl:
+              "https://lh3.googleusercontent.com/yhvI4Thw7eI2F78_hJvk3C94Jv9I6R1jUJf2ytu89rW9sxHq80bH84ncD2I-Yz1Yg8-F=s360"),
           appCard(
               appName: 'Brave Privacy Browser',
               appDisc: 'Fast, Safe, Private Browser',

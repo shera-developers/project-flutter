@@ -38,7 +38,7 @@ class SearchCardPage extends StatelessWidget {
           child: Center(
             child: Text(
               ' Page under Development and will always remain under development :/ \n\n Your Developers are working on it 24x7.\n Sorry for the delay.\n Get back here soon!',
-              style: TextStyle(color: Colors.amber, fontSize: 20.0),
+              style: TextStyle(color: Colors.green, fontSize: 20.0),
             ),
           ),
         ),
@@ -63,7 +63,7 @@ class CardPage extends StatelessWidget {
           child: Center(
             child: Text(
               ' Page under Development :/ \n\n Your Developers are working on it 24x7.\n Sorry for the delay.\n Get back here soon!',
-              style: TextStyle(color: Colors.red, fontSize: 20.0),
+              style: TextStyle(color: Colors.blue, fontSize: 20.0),
             ),
           ),
         ),

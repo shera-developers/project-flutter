@@ -25,7 +25,7 @@ void main()
     {
         scanf("%d",&ar[i1]);
     }
-    printf("check1\n");
+    printf("this is the solution\n");
     sum1=simpleArraysum(ar[n1]);
     printf("%d",sum1);
 

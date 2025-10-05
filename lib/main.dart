@@ -41,7 +41,7 @@ class _welcome_screenState extends State<welcome_screen> {
       loopAnimation: 'Untitled',
       until: () => Future.delayed(Duration(milliseconds: 56)),
       endAnimation: '2',
-      backgroundColor: Colors.red,
+      backgroundColor: Colors.green,
     );
   }
 }

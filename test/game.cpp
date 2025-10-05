@@ -37,8 +37,8 @@ int main() {
         //     } <<"\t"<<start<<" "<<end 
         // }
         if(end<start){
-            cout << 0 << endl;
-            cout << 99 << endl;
+            cout << 1 << endl;
+            cout << 2 << endl;
         }
         else
             cout << (end - start + 2) << endl;
